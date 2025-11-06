@@ -1,0 +1,12 @@
+body {
+    font-family: "Fira Sans", 'Times New Roman', serif;
+}
+
+h5 {
+    text-align: center;
+}
+
+.nav-link[aria-current="page"] {
+    border-bottom: 4px solid white;
+    font-weight: bold;
+}
