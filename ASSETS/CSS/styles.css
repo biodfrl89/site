@@ -9,4 +9,11 @@ h5 {
 .navbar .nav-link[aria-current="page"] {
     border-bottom: 4px solid white;
     font-weight: bold;
+    color: white;
+}
+
+.carousel-item img {
+  height: 300px;              /* ajusta según lo que necesites */
+  object-fit: contain;          /* recorta la imagen sin deformarla */
+  width: 100%;                /* ocupa todo el ancho del carrusel */
 }
