@@ -17,3 +17,8 @@ h5 {
   object-fit: contain;          /* recorta la imagen sin deformarla */
   width: 100%;                /* ocupa todo el ancho del carrusel */
 }
+
+.img-limit {
+  max-width: 300px;
+  width: 100%;
+}
