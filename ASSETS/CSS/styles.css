@@ -6,6 +6,9 @@ h5 {
     text-align: center;
 }
 
+.acerca p{
+  font-size: large;
+}
 .navbar .nav-link[aria-current="page"] {
     border-bottom: 4px solid white;
     font-weight: bold;
@@ -21,4 +24,7 @@ h5 {
 .img-limit {
   max-width: 300px;
   width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 10% 50%;
 }
